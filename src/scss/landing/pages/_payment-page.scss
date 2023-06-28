@@ -1,0 +1,44 @@
+.thankspage {
+    background: #f4f4f4;
+    padding: 50px;
+    min-height: 88vh;
+    text-align: center;
+    > div {
+        background: #fff;
+        padding: 112px 30px;
+        border-radius: 16px;
+        text-align: center;
+       .fas  {
+            font-size: 62px;
+            color: #55db1e;
+            margin-bottom: 26px;
+        }
+        .btn-primary {
+            border-radius: 50px;
+            padding: 9px 27px;
+        }
+    }
+}
+
+.errorpage {
+    background: #f4f4f4;
+    padding: 50px;
+    min-height: 88vh;
+    text-align: center;
+    > div {
+        background: #fff;
+        padding: 72px 30px;
+        border-radius: 16px;
+        text-align: center;
+        h2 {
+            color: #ff2424;
+        }
+        p {
+            color: #d54e4e;
+        }
+        .btn-primary {
+            border-radius: 50px;
+            padding: 9px 27px;
+        }
+    }
+}

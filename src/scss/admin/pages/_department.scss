@@ -1,0 +1,34 @@
+.department {
+    .card {
+        box-shadow: $box-shadow;
+        border: none;
+        .card-text {
+            color: #7483a1;
+            max-height: 48px;
+            min-height: 48px;
+            overflow: hidden;
+            &:hover { 
+                transform: scale(1.5);
+                z-index: 9999;
+                font-size: 11px;
+                transform-origin: top left;
+                box-shadow: $box-shadow-lg;
+                &.card-text {
+                    max-height: initial;
+                    min-height: initial;
+                    z-index: 9999;
+                    font-size: 9px;
+                    background-color: #fff;
+                    padding: 7px;
+                    position: absolute;
+                    width: 73%;
+                }
+            }
+        }
+        .btn {
+            padding: 5px 8px;
+            font-size: 12px;
+        }
+    }
+}
+ 

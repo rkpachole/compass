@@ -1,0 +1,26 @@
+.search-secrion {
+    .card-header {
+        background-color: $primary;
+        color: $white;
+    }
+    
+    .description {
+        width: 174px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        &:hover {
+            transform: scale(1.5);
+            z-index: 9999;
+            font-size: 9px;
+            transform-origin: top left;
+            box-shadow: $box-shadow-lg;
+            background-color: $white;
+            padding: 5px;
+            position: absolute;
+            top: 0;
+            text-overflow: initial;
+            white-space: break-spaces;
+        }
+    }
+}

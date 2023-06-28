@@ -1,0 +1,15 @@
+//header
+
+.header {
+    .navbar-brand {
+        @media (max-width: 1024px) { 
+            margin-right: 0;
+        }
+        img {
+            width: 150px;
+            @media (max-width: 1024px) { 
+                width: 120px !important;
+            }
+        }
+    }
+}

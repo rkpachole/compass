@@ -1,0 +1,177 @@
+// 
+// button.scss
+//
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.48;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.btn-group-sm {
+	>.btn {
+		padding: 0.25rem 0.5rem;
+		font-size: -0.125rem;
+		border-radius: 0.2rem;
+	}
+}
+.btn-sm {
+	padding: 0.25rem 0.5rem;
+	font-size: -0.125rem;
+	border-radius: 0.2rem;
+}
+.btn-default {
+    background-color:$white;
+    border:1px solid $gray-900;
+}
+:root {
+    --primary-light: #8abdff;
+    --primary: #6d5dfc;
+    --primary-dark: #5b0eeb;
+    --success-light: #4ccd12;
+    --success: #2cb70d;
+    --success-dark: #338d0b;
+    --white: #ffffff;
+    --greyLight-1: #e4ebf5;
+    --greyLight-2: #c8d0e7;
+    --greyLight-3: #bec8e4;
+    --greyDark: #9baacf;
+  }
+.btn-primary {
+    color: #fff;
+    background-color: $primary;
+    border-color: $primary;
+    &:focus, &:hover, &:not(:disabled):not(.disabled):active {
+        color: #fff;
+        background-color: #5c4dbf;
+        border-color: #4f41ad;
+    }
+}
+
+.btn-theme {
+    color: $primary;
+    background-color:$white ;
+    border-color: $white;
+    &:focus, &:hover, &:not(:disabled):not(.disabled):active {
+        color: #fff;
+        background-color: #5c4dbf;
+        border-color: #4f41ad;
+    }
+}
+.upload-btn {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+    
+     input[type=file] {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        height: 100%;
+    }
+  }
+
+  
+/*  BUTTONS  */
+.btn_2 {
+    padding: 12px 20px;
+    border-radius: 8px;
+    box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border: none;
+  }
+  .btn__success {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    background: var(--success);
+    box-shadow: inset 0.2rem 0.2rem 1rem var(--success-light), inset -0.2rem -0.2rem 1rem var(--success-dark), 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+    color: var(--greyLight-1);
+  }
+  .btn__primary {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    background: var(--primary);
+    box-shadow: inset 0.2rem 0.2rem 1rem var(--primary-light), inset -0.2rem -0.2rem 1rem var(--primary-dark), 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+    color: var(--greyLight-1);
+  }
+  .btn__primary:hover {
+    color: var(--white);
+  }
+  .btn__primary:active {
+    box-shadow: inset 0.2rem 0.2rem 1rem var(--primary-dark), inset -0.2rem -0.2rem 1rem var(--primary-light);
+  }
+  .btn__theme {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    color: var(--greyDark);
+  }
+  .btn__theme:hover {
+    color: var(--primary);
+  }
+  .btn__theme:active {
+    box-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2), inset -0.2rem -0.2rem 0.5rem var(--white);
+  }
+  .back-btn {
+    padding: 0 8px;
+    color: var(--greyDark);
+    font-size: 24px;
+    line-height: 0;
+  }
+  /******/
+
+  
+/*  ICONS  */
+.icon {
+    grid-column: 3/4;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: space-between;
+  }
+  .icon__mg {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    cursor: pointer;
+    color: var(--greyDark);
+    transition: all 0.5s ease;
+    border: none;
+    @media (max-width: 1024px) {
+      width: 35px;
+      height: 35px;
+      margin-top: 7px;
+    }
+  }
+  .icon__mg:active {
+    box-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2), inset -0.2rem -0.2rem 0.5rem var(--white);
+    color: var(--primary);
+  }
+//   .icon__mg:hover
+//     color var(--primary);
+//   }

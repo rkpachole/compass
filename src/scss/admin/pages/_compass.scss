@@ -1,0 +1,88 @@
+/****compass-menu****/
+
+.compass
+  {
+    position: fixed;
+    bottom: -584px;
+    left: 20%;
+    right: 20%;
+    z-index: 9;
+  .compass-menu {
+        position: relative;
+        width: 682px;
+        background: #fff;
+        height: 681px;
+        box-shadow: 0 0px 15px #b0aebf;
+        border-radius: 50%;
+        border-top-left-radius: 333px;
+        border-top-right-radius: 322px;
+        .compass-conten {
+          position: relative;
+          height: 100%;
+        }
+        ul {
+          position: absolute;
+          top: 118px;
+          transform: rotate(1deg);
+          left: 3px;
+            .nav-link {
+              color: #000;
+              font-size: 12px;
+            }
+        }
+        .compass-icon{
+          text-align: center;
+          position: absolute;
+          top: 73px;
+          left: 50%;
+          margin-left: -38px;
+          img {
+            transform-origin: 40px center;
+          }
+      }
+  }
+}
+.compass-active
+  {
+    position: fixed;
+    bottom: -113px;
+    left: 40%;
+    right: 40%;
+    z-index: 9;
+  .compass-menu {
+        position: relative;
+        width: 255px;
+        background: #fff;
+        height: 200px;
+        box-shadow: 0 0px 15px #b0aebf;
+        border-radius: 50%;
+        border-top-left-radius: 333px;
+        border-top-right-radius: 322px;
+        .compass-conten {
+          position: relative;
+          height: 100%;
+        }
+        .compass-col-text {
+          position: absolute;
+          top: 10px;
+          transform: rotate(1deg);
+          left: 3px;    
+          width: 100%;
+          text-align: center;
+            a {
+              color: #000;
+              font-size: 13px;
+            }
+        }
+        .compass-icon{
+          text-align: center;
+          position: absolute;
+          top: 73px;
+          left: 50%;
+          margin-left: -38px;
+          img {
+            transform-origin: 40px center;
+          }
+      }
+  }
+}

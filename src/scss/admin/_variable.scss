@@ -1,0 +1,123 @@
+// Variables
+//
+
+// custom cods
+$blue-light:    #4ac9e3;
+$purple:        #6c5dd3;
+$blue:          #4d49be;
+$ocean-blue:    #1abc9c;
+$blue-dark:     #0c3047;
+
+$green:         $ocean-blue;
+$yellow:        #cebd2a;
+$red:           #ce2e2a;
+$white:         #fff;
+$gray:          #9c9c9c;
+$black:         #000;
+
+// Color system
+$gray-100:      #f1f5f7;
+$gray-200:      #f7f7f7;
+$gray-300:      #dee2e6;
+$gray-400:      #ced4da;
+$gray-500:      #adb5bd;
+$gray-600:      #98a6ad;
+$gray-700:      #6c757d;
+$gray-800:      #343a40;
+$gray-900:      #c3ccd0;
+
+$primary:       $purple;
+$secondary:     $blue-dark;
+$info:          $blue;
+$warning:       $yellow;
+$danger:        $red;
+$success:       $green;
+$body-color:    $gray-300;
+$transparent:   none;
+
+$light:         $gray-100;
+$dark:          $gray-900;
+
+$text-muted:    $gray-400;
+
+// Font weight 
+$font-weight-lighter:         100;
+$font-weight-light:           300;
+$font-weight-normal:          normal;
+$font-weight-medium:          500;
+$font-weight-bold:            700;
+$font-weight-black:           900; 
+
+$h1-font-size:                2.25rem;
+$h2-font-size:                1.875rem;
+$h3-font-size:                1.5rem;
+$h4-font-size:                1.125rem;
+$h5-font-size:                0.875rem;
+$h6-font-size:                0.75rem;
+
+$font-size-base:              1rem;
+$font-size-sm:                $font-size-base * .9;
+$font-size-lg:                $font-size-base * 1.25;
+
+//Table
+$table-cell-padding-y:        .85rem;
+$table-cell-padding-x:        .85rem;
+$table-cell-padding:          .85rem;
+
+$table-cell-padding-y-sm:     .5rem;
+$table-cell-padding-x-sm:     .5rem;
+$table-cell-padding-sm:       .5rem;
+
+//Border
+$border-width:                1px; 
+$border-width-2:              2px;
+
+$input-btn-border-width:      $border-width;
+$btn-border-none:             transparent;
+
+//Input
+$input-btn-font-size-sm:      $font-size-sm;
+
+$input-btn-padding-y-lg:      .5rem;
+$input-btn-padding-x-lg:      1rem;
+$input-btn-font-size-lg:      $font-size-lg;
+
+$input-padding-y-sm:          .28rem;
+$input-padding-x-sm:          .8rem;
+$input-font-size-sm:          $input-btn-font-size-sm;
+
+$input-padding-y-lg:          $input-btn-padding-y-lg;
+$input-padding-x-lg:          $input-btn-padding-x-lg; 
+$input-font-size-lg:          $input-btn-font-size-lg;
+
+$input-placeholder-color:     $gray-600;
+$input-plaintext-color:       $body-color;
+
+// label 
+$label-font-weight:           $font-weight-medium;
+
+//Border Radius
+$border-color:                lighten($gray-300,2.5%);
+$border-radius-0:             0;
+$border-radius:               .25rem;
+$border-radius-sm:            .2rem;
+$border-radius-lg:            .3rem;
+$border-radius-pill:          50rem;
+$border-radius-circle:        100%;
+
+//Shadow
+$box-shadow:                  0 3px 7px 1px rgba($gray-300, 0.70);
+$box-shadow-sm:               0 1px 2px 0 rgba($black,.15);
+$box-shadow-lg:               0 0 40px 0 rgba($secondary, 0.28);
+$box-shadow-inset:            inset 0 1px 1px rgba($black, 0.05);
+
+//background
+
+$white-10:                    rgba($white, 0.10);
+$white-20:                    rgba($white, 0.20);
+$white-30:                    rgba($white, 0.30);
+$white-40:                    rgba($white, 0.40);
+$white-50:                    rgba($white, 0.50);
+$white-70:                    rgba($white, 0.60);
+$white-80:                    rgba($white, 0.70);
+$white-90:                    rgba($white, 0.80);

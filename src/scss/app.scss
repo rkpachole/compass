@@ -1,0 +1,36 @@
+/*
+Template Name: Imenso
+Author: Imenso Team
+Version: 1.0.0
+Website: https://domain.com/
+Contact: support@domain.com
+File: Main Css File (Default Demo)
+*/
+
+//variable
+@import "admin/variable";
+
+// Structure
+@import "admin/structure/header"; 
+@import "admin/structure/footer"; 
+@import "admin/structure/common"; 
+@import "admin/structure/responsive"; 
+
+//Components
+@import "admin/components/type";
+@import "admin/components/button";
+@import "admin/components/form";
+@import "admin/components/table";
+
+//Pages
+@import "admin/pages/sidebar";
+@import "admin/pages/rightsidebar";
+@import "admin/pages/compass";
+@import "admin/pages/department";
+@import "admin/pages/searchpage";
+/*****/
+
+
+//landing
+@import "landing/pages/home";
+@import "landing/pages/payment-page"
